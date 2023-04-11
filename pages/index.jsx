@@ -2,6 +2,7 @@ import Footer from '@/components/footer'
 import Header from '@/components/header'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link'
 
 
 export default function Home() {
@@ -20,15 +21,20 @@ export default function Home() {
 
           <div className="overlay body">
             <div className="container h-100 w-100 ">
-              <div className="w-100 d-flex justify-content-start element">
-                <img src="/img/logo/logo_full_white.svg" alt="Sexy Bark | cw1" width="300px" style={{ objectFit: "contain", maxHeight: 100, transform: "translateX(-15px)" }} />
+              <div className="w-100 d-flex justify-content-between element align-items-start w-100">
+                <img src="/img/logo/logo_full_white.svg" alt="Sexy Bark | cw1" width="150px" style={{ objectFit: "contain", maxHeight: 100, transform: "translateX(-15px)" }} />
+                <Link href="/contact" className="pt-5">
+                  <h6 className="pointer">Contact</h6>
+                </Link>
               </div>
               <div className="element">
                 <h1>Furry lovers united.</h1>
                 <p>Download at</p>
                 <div className="d-flex">
                   <img src="/img/logo/appstore.svg" alt="Sexy Bark | cw1" width="170px" style={{ objectFit: "contain", maxHeight: 100, cursor: "pointer" }} />
-                  <img src="/img/logo/playstore.svg" alt="Sexy Bark | cw1" width="200px" style={{ objectFit: "contain", maxHeight: 100, marginLeft: 30, cursor: "pointer" }} />
+                  <a href="https://play.google.com/store/apps/details?id=com.cw1.sexybark">
+                    <img src="/img/logo/playstore.svg" alt="Sexy Bark | cw1" width="200px" style={{ objectFit: "contain", maxHeight: 100, marginLeft: 30, cursor: "pointer" }} />
+                  </a>
                 </div>
               </div>
               <div className="element">
@@ -77,7 +83,9 @@ export default function Home() {
                 <h2 className=" text-white fw-bold">Meet</h2>
                 <h2 className=" text-white fw-bold">Connect</h2>
                 <h2 className=" text-white fw-bold">Have fun</h2>
-                <img src="/img/logo/playstore.svg" alt="Sexy Bark | cw1" width="200px" style={{ objectFit: "contain", maxHeight: 100, cursor: "pointer" }} />
+                <a href="https://play.google.com/store/apps/details?id=com.cw1.sexybark">
+                  <img src="/img/logo/playstore.svg" alt="Sexy Bark | cw1" width="200px" style={{ objectFit: "contain", maxHeight: 100, marginLeft: 30, cursor: "pointer" }} />
+                </a>
               </div>
 
             </div>

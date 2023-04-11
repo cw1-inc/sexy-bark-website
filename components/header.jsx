@@ -12,16 +12,9 @@ export default function Header({ backgroundColor = "transparent", position = "re
 
 
             <Image src={"/img/logo/logo_full_white.svg"} alt="cw1" width={350} height={100}></Image>
+            <h3>Contact</h3>
 
-
-            <nav className="menu">
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    {/* <li><a href="#">About</a></li>
-                    <li><a href="#">Services</a></li> */}
-                    <li><a href="#">Download</a></li>
-                </ul>
-            </nav>
+            
         </header>
     )
 }

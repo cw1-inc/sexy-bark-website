@@ -23,12 +23,9 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
 a {
@@ -43,75 +40,100 @@ a {
 }
 
 
-.color4{
+.color4 {
   color: $color4;
 }
 
 
-h1{
-font-size: 3.5rem;
-font-weight: 700;
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
 }
 
-h2{
+h2 {
   font-size: 2.5rem;
   font-weight: 700;
-  }
+}
 
-p{
+p {
   font-size: 1.6rem;
   font-weight: 500;
 }
 
 
-.hero{
+.hero {
   position: relative;
-  img{
+
+  img {
     height: 650px;
   }
-  .body{
+
+  .body {
     position: absolute;
     width: 100%;
     height: 100%;
-    .container{
+
+    .container {
       display: flex;
       flex-direction: column;
       justify-content: space-between;
-      .element{
+
+      .element {
         flex: 1;
         color: white;
-        
+
       }
     }
   }
 }
+
 @media (max-width: 450px) {
-  .hero{
-    img{
+  .hero {
+    img {
       height: 500px;
     }
   }
-  h1{
+
+  h1 {
     font-size: 2.5rem;
   }
-  h2{
+
+  h2 {
     font-size: 2rem;
-    }
-  
-  p{
+  }
+
+  p {
     font-size: 1.2rem;
     font-weight: 500;
   }
-  
+
 }
 
 
-.privacy-policy{
-  h3{
+.privacy-policy {
+  h3 {
     font-size: 16px;
     font-weight: 700;
   }
-  p{
+
+  p {
     font-size: 14px;
   }
+}
+
+.contact {
+  h3 {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  p {
+    font-size: 14px;
+    font-weight: 300;
+    color: #777
+  }
+}
+
+.pointer {
+  cursor: pointer;
 }
