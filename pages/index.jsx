@@ -31,7 +31,9 @@ export default function Home() {
                 <h1>Furry lovers united.</h1>
                 <p>Download at</p>
                 <div className="d-flex">
-                  <img src="/img/logo/appstore.svg" alt="Sexy Bark | cw1" width="170px" style={{ objectFit: "contain", maxHeight: 100, cursor: "pointer" }} />
+                  <a href="https://apps.apple.com/us/app/sexy-bark/id6447242746">
+                    <img src="/img/logo/appstore.svg" alt="Sexy Bark | cw1" width="170px" style={{ objectFit: "contain", maxHeight: 100, cursor: "pointer" }} />
+                  </a>
                   <a href="https://play.google.com/store/apps/details?id=com.cw1.sexybark">
                     <img src="/img/logo/playstore.svg" alt="Sexy Bark | cw1" width="200px" style={{ objectFit: "contain", maxHeight: 100, marginLeft: 30, cursor: "pointer" }} />
                   </a>
@@ -72,7 +74,9 @@ export default function Home() {
                 <h2 className="text-white fw-bold">Match</h2>
                 <h2 className="text-white fw-bold">Enjoy</h2>
                 <h2 className="text-white fw-bold">Discover</h2>
-                <img src="/img/logo/appstore.svg" alt="Sexy Bark | cw1" width="170px" style={{ objectFit: "contain", maxHeight: 100, cursor: "pointer" }} />
+                <a href="https://apps.apple.com/us/app/sexy-bark/id6447242746">
+                  <img src="/img/logo/appstore.svg" alt="Sexy Bark | cw1" width="170px" style={{ objectFit: "contain", maxHeight: 100, cursor: "pointer" }} />
+                </a>
               </div>
 
               <div className="col-12 col-md-4  ">
