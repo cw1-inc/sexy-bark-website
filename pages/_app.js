@@ -29,8 +29,8 @@ export default function App({ Component, pageProps }) {
         <meta name="og:description" property="og:description" content={"We connect dog lovers to find friends for their furry friends"} />
         <meta property="og:site_name" content="CW1" />
         <meta property="og:url" content={`https://wwww.sexybark.com`} />
-        <meta property="og:image" content={`http://i.ibb.co/64dCSRN/pspecter-selfies-of-attractive-swedish-girls-and-their-dogs-06509181-f258-4453-a9a5-f7168879750a.png`} />
-        <meta property="og:image:secure_url" content={`https://i.ibb.co/64dCSRN/pspecter-selfies-of-attractive-swedish-girls-and-their-dogs-06509181-f258-4453-a9a5-f7168879750a.png`} />
+        <meta property="og:image" content={`/dad.jpg`} />
+        <meta property="og:image:secure_url" content={`/dad.jpg`} />
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={"Sexy Bark"} />
