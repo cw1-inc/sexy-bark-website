@@ -22,20 +22,20 @@ export default function App({ Component, pageProps }) {
         <meta name="description" content={"We connect dog lovers to find friends for their furry friends"} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href={`https://wwww.sexybark.com`} />
+        <link rel="canonical" href={`https://www.sexybark.com`} />
 
         <meta property="og:type" content="website" />
         <meta name="og:title" property="og:title" content={"Sexy Bark"} />
         <meta name="og:description" property="og:description" content={"We connect dog lovers to find friends for their furry friends"} />
         <meta property="og:site_name" content="CW1" />
-        <meta property="og:url" content={`https://wwww.sexybark.com`} />
+        <meta property="og:url" content={`https://www.sexybark.com`} />
         <meta property="og:image" content={`/dad.jpg`} />
         <meta property="og:image:secure_url" content={`/dad.jpg`} />
 
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content={"Sexy Bark"} />
         <meta name="twitter:description" content={"We connect dog lovers to find friends for their furry friends"} />
-        <meta name="twitter:site" content={`https://wwww.sexybark.com`} />
+        <meta name="twitter:site" content={`https://www.sexybark.com`} />
         <meta name="twitter:creator" content="CW1" />
         <meta name="twitter:image" content={`https://i.ibb.co/64dCSRN/pspecter-selfies-of-attractive-swedish-girls-and-their-dogs-06509181-f258-4453-a9a5-f7168879750a.png`} />
 
